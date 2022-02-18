@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week 3 ePortfolio part 2</title>
+</head>
+<body>
+<h3>Registration for Covid-19 Volunteer - &reg; C19-Team</h3>
+<form method="" action="">
+<table style="table-layout: fixed;" border="1" width="450" height="100" cellpadding="10">
+	<tr>
+		<td><label for="nama">Fullname</label></td>
+		<td><input type="text" name="name" id="name" pattern="[A-Z]{1-30}"></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email</label></td>
+		<td><input type="email" name="email" id="email"></td>
+	</tr>
+	<tr>
+		<td>Date you can start</td>
+		<td><input type="Date" name="date" id="date"></td>
+	</tr>
+	<tr>
+		<td>Morning shift preference</td>
+		<td><input type="time" name="time"></td>
+	</tr>
+	<tr>
+		<td>Evening shift preference</td>
+		<td><input type="time" name="time"></td>
+	</tr>
+	<tr>
+		<td><label for="hours" id="hours">How many hours you can work? In multiple of 3</label></td>
+		<td><select name="hours" id="hours">
+			<option value=""></option>
+			<option value="3">3</option>
+			<option value="6">6</option>
+			<option value="9">9</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td><label for="distance" id="distance">Distance you willing to commute to volunteer center?</label></td>
+		<td>1<input type="range" name="distance" id="distance" min="1" max="15">15</td>
+	</tr>
+	<tr>
+		<td>You currency perference for payment</td>
+		<td>
+			<input type="radio" name="currency" id="pounds">
+				<label for="pounds">£</label>
+			<input type="radio" name="currency" id="yuan">
+				<label for="yuan">¥</label>
+			<input type="radio" name="currency" id="euro">
+				<label for="euro">€</label>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<form action="/action_page.php">
+		<label for="address"></label>
+		<textarea id="address" name="address" rows="4" cols="50">
+ 		Type your home address
+  		</textarea></td>
+		
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><del>You will be given daily meals</del></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="checkbox" name="conditions" id="conditions"> <label for="conditions">I agree to all terms and conditions</label></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">Prove you are not a robot: 10 < 20? <input type="checkbox" name="verify" id="verify"> </td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" name="submit" value="Volunteer now!"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" name="submit" value="Start over"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">For more information, visit MOH <a href="https://www.moh.gov.bn/Pages/Home.aspx">website</a></th>
+	</tr>
+</table>
+
+<p>Denzel Washington once said...</p>
+
+<p style="text-indent: 50px;font-size: 16px; line-height: 2px;" ><b>"At the end of the day it’s not about what you have or even what you’ve accomplished… it’s about who you’ve lifted 
+<br><p style="text-indent: 50px;font-size: 16px;line-height: 2px;">up, who you’ve made better. It’s about what you’ve given back."</b></p></p>
+
+<p style="line-height: 20px;font-size: 14px;font-family:'Lucida Console', monospace">So roses are red, violets are blue
+<br>It's all in my head, no matter what I do
+<br>So roses are red, violets are blue
+<br>It's all in my head, no matter what I do</p>
+
+</body>
+</html>
