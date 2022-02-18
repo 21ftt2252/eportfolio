@@ -31,12 +31,12 @@
 	</tr>
 	<tr>
 		<td><label for="hours" id="hours">How many hours you can work? In multiple of 3</label></td>
-		<td><select name="hours" id="hours">
-			<option value=""></option>
-			<option value="3">3</option>
-			<option value="6">6</option>
-			<option value="9">9</option>
-		</select></td>
+		<td><form action="/action_page.php">
+			<label for="hours"></label>
+			<input type="number" name="hours" id="hours" step="3" min="3" max="9">
+		</form>
+		
+		</td>
 	</tr>
 	<tr>
 		<td><label for="distance" id="distance">Distance you willing to commute to volunteer center?</label></td>
