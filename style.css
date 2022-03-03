@@ -6,12 +6,11 @@ body {
 		text-align: center;
 	}
 
-	div>a {
+	.button	{
 		text-decoration: none;
 	}
  		
- 	/* div>a>button*/
-	 .button {
+ 	 .button {
 		font-family: "Poppins";
 		font-size: 20px;
 		border: none;
@@ -24,13 +23,7 @@ body {
 		cursor: pointer;
 	}
 
-	/*div>a>button*/
 	.button:hover {
 		background-color:#d8323c;
 		color: #0c0e0c;
-	}
-
-	/*div>a>button*/
-	.button: pointer {
-		cursor: pointer;
 	}
