@@ -9,9 +9,9 @@ body {
 	div>a {
 		text-decoration: none;
 	}
-
-	 /*.button*/ 
-	 div>a>button {
+ 		
+ 	/* div>a>button*/
+	 .button {
 		font-family: "Poppins";
 		font-size: 20px;
 		border: none;
@@ -21,14 +21,16 @@ body {
 		margin: auto;
 		margin-bottom: 10px;
 		background-color: #eaebea;
-		/*cursor: pointer;*/
+		cursor: pointer;
 	}
 
-	div>a>button:hover {
+	/*div>a>button*/
+	.button:hover {
 		background-color:#d8323c;
 		color: #0c0e0c;
 	}
 
-	div>a>button: pointer {
+	/*div>a>button*/
+	.button: pointer {
 		cursor: pointer;
 	}
