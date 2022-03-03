@@ -25,3 +25,7 @@ body {
 		background-color:#d8323c;
 		color: #0c0e0c;
 	}
+
+	.button:visited {
+		color: #463775 ;
+	}
