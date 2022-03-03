@@ -1,0 +1,32 @@
+body {
+		font-family: "Poppins";
+		font-weight: bold;
+		color: #eaebea;
+		font-size: 24px;
+		text-align: center;
+	}
+ 		
+ 	 .button {
+		font-family: "Poppins";
+		font-size: 20px;
+		color: #000000;
+		text-decoration: none;
+		border: none;
+		border-radius: 8px;
+		width: 300px;
+		padding: 15px;
+		display: block;
+		margin: auto;
+		margin-bottom: 10px;
+		background-color: #eaebea;
+		cursor: pointer;
+	}
+
+	.button:hover {
+		background-color:#d8323c;
+		color: #0c0e0c;
+	}
+
+	.button:visited {
+		color: #463775 ;
+	}
