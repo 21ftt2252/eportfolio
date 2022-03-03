@@ -20,10 +20,10 @@ body {
 		margin: auto;
 		margin-bottom: 10px;
 		background-color: #eaebea;
-		cursor: pointer;
 	}
 
 	div>a>button:hover {
 		background-color:#d8323c;
 		color: #0c0e0c;
+		cursor: pointer;
 	}
